@@ -84,3 +84,29 @@ for (let i = 1; i <=num; i++) {
 }
 console.log(outPutString);
 ```
+
+```
+5.  *
+    **
+    ***
+    ****
+    *****
+    ****
+    ***
+    **
+    *
+```
+Solution:
+
+```
+let num = 5;
+let outPutString = "";
+for (let i = 0; i < num * 2; i++) {
+  let colCount = i > num ? 2 * num - i : i;
+  for (let j = 0; j < colCount; j++) {
+    outPutString += "*";
+  }
+  outPutString += "\n";
+}
+console.log(outPutString);
+```
