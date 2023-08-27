@@ -41,3 +41,25 @@ for (let i = 0; i < num; i++) {
 }
 console.log(outPutString);
 ```
+
+
+```
+3.  *****
+    ****
+    ***
+    **
+    *
+```
+Solution: 
+
+```
+let num = 5;
+let outPutString = "";
+for (let i = 0; i < num; i++) {
+  for (let j = i; j <num; j++) {
+    outPutString += "*";
+  }
+  outPutString += "\n";
+}
+console.log(outPutString);
+```
