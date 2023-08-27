@@ -1,10 +1,12 @@
 # JavaScript Pattern Questions And Answers
 
+```text
 1.  *****
     *****
     *****
     *****
     *****
+```
 
 Solution :
 ```text
