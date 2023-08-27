@@ -110,3 +110,60 @@ for (let i = 0; i < num * 2; i++) {
 }
 console.log(outPutString);
 ```
+
+```
+6.       *
+        **
+       ***
+      ****
+     *****
+```
+Solution:
+
+```
+let num = 5;
+let outPutString = "";
+for (let i = 0; i < num ; i++) {
+  for (let j = 0; j < num-i; j++) {
+    outPutString += " ";
+  }
+  for (let k = 0; k<=i; k++) {
+    outPutString += "*";
+  }
+  outPutString += "\n";
+}
+console.log(outPutString);
+```
+
+```
+7.   *****
+      ****
+       ***
+        **
+         *
+```
+Solution: 
+
+```
+let num = 5;
+let outPutString = "";
+for (let i = 0; i < num ; i++) {
+  for (let j = 0; j < i; j++) {
+    outPutString += " ";
+  }
+  for (let k = 0; k<num-i; k++) {
+    outPutString += "*";
+  }
+  outPutString += "\n";
+}
+console.log(outPutString);
+```
+
+```
+8.      *
+       ***
+      *****
+     *******
+    *********
+    
+```
